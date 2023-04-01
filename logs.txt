@@ -1,0 +1,36 @@
+commit 39885b84de00257e898c5fcf014413b0a0961879 (HEAD -> master, origin/master, origin/bug3, bug3)
+Author: Aleksandar Trkaleski <a.trkaleski@gmail.com>
+Date:   Sat Apr 1 14:59:16 2023 +0200
+
+    Fix wrong condition in sumEvenNumbers
+
+commit 44f52a6fa0b5ff6971bba71388a827943a3154ae
+Merge: 0006e61 141fbe1
+Author: Aleksandar Trkaleski <a.trkaleski@gmail.com>
+Date:   Sat Apr 1 15:02:58 2023 +0200
+
+    Merge branch 'bug2'
+
+commit 141fbe1e93d4b0cb3729e2219964d9553b23d086 (origin/bug2, bug2)
+Author: Aleksandar Trkaleski <a.trkaleski@gmail.com>
+Date:   Sat Apr 1 14:58:30 2023 +0200
+
+    Fix wrong condition in filterOddNumbers
+
+commit 0006e6199247a81170d5cda7950a786a1abfd418 (origin/bug1, bug1)
+Author: Aleksandar Trkaleski <a.trkaleski@gmail.com>
+Date:   Sat Apr 1 14:56:36 2023 +0200
+
+    Fix wrong loop for reading
+
+commit d3ca602dbeecbfdb2ffccd8188d126d893c460ff
+Author: Aleksandar Trkaleski <a.trkaleski@gmail.com>
+Date:   Sat Apr 1 14:49:49 2023 +0200
+
+    Add java class.
+
+commit f5f60d90ded95f44f63572e66c52641e426ffa2e
+Author: Aleksandar Trkaleski <a.trkaleski@gmail.com>
+Date:   Sat Apr 1 14:45:12 2023 +0200
+
+    Initial commit.
