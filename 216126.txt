@@ -1,0 +1,73 @@
+$ mkdir SI_2023_lab1_216126  #креирам директориум
+
+$ cd SI_2023_lab1_216126 #влегувам во директориумот
+
+$ git init   #инцијализирам git
+Initialized empty Git repository in C:/Users/atrka/SI_2023_lab1_216126/.git/
+
+atrka@DESKTOP-SP459DJ MINGW64 ~/SI_2023_lab1_216126 (master)
+$ git remote add origin https://github.com/TrkaleskiA/SI_2023_lab1_216126.git26.git #се поврзувам со оддалечениот директориум
+
+$ nano README.md #креирам README.md и внесувам Александар Тркалески 216126
+
+$ git add . #ги додавам сите staged во тековниот директориум односно само README.md
+
+$ git commit -m "Initial commit." #го commit README.md
+
+#креирам SILab1.java на Notepad++ во директориумот
+
+$ git add . #ги додавам сите staged во тековниот директориум
+
+$ git commit -a -m "Add java class." #commit на SILab1.java со пораката "Add java class."
+
+$ git push origin master #синхронизирам со оддалечениот директориум
+
+$ git branch bug1 #креирам branch со име bug1
+
+$ git branch bug2 #креирам branch со име bug2
+
+$ git branch bug3 #креирам branch со име bug3
+
+$ git checkout bug1 #се префрлам на гранката bug1
+
+$ nano SILab1.java #го едитнувам фајлот (исто за bug2 и bug3)
+
+$ git commit -a -m "Fix wrong loop for reading."
+
+$ git checkout bug2
+
+$ nano SILab1.java
+
+$ git commit -a -m "Fix wrong condition in filterOddNumbers."
+
+$ git checkout bug3
+
+$ nano SILab1.java
+
+$ git commit -a -m "Fix wrong condition in sumEvenNumbers"
+
+$ git push --all #ги синхронизирам сите
+
+$ git checkout master #одам на master гранката
+
+$ git merge bug1 #ја спојувам bug1 кон master (овде е со fast-forward)
+
+$ git push --all
+
+$ git merge bug2 "#ја спојувам bug2 кон master (овде со recursive имаме 1 commit плус)
+
+$ git push --all
+
+$ git push --all
+
+$ git checkout bug3 #одам на bug3 гранката
+
+$ git rebase master #rebase на bug3 спрема master
+
+$ git checkout master
+
+$ git merge bug3 #ја спојувам bug3 кон master (fast-forward заради rebase-от)
+
+$ git push --all --force
+
+$ git log #за да го добијам досегашните логови
